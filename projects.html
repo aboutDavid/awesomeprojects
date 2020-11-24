@@ -30,6 +30,14 @@ layout: base.html
   <a href="{{ project.url }}">View App</a> &bull;
   <a href="https://glitch.com/edit/#!/{{ project.title }}">View Source</a>
 </p>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/{{project.title}}?previewSize=0"
+    title="{{project.title}} on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <hr />
 <h3>
   <a
